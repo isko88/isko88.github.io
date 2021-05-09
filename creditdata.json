@@ -65,6 +65,10 @@
     "type": "month",
     "value": 24
     },
+    "perMonth": {
+    "value": 354.16,
+    "currency": "AZN"
+    },
     "dueAmount": {
     "value": 0,
     "currency": "AZN"
@@ -99,6 +103,10 @@
     "period": {
     "type": "month",
     "value": 36
+    },
+     "perMonth": {
+    "value": 333.33,
+    "currency": "AZN"
     },
     "dueAmount": {
     "value": 0,
