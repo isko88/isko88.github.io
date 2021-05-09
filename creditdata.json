@@ -211,21 +211,21 @@
         "loans": [
         {
         "amount": {
-        "value": 5000,
+        "value": 50000,
         "currency": "AZN"
         },
         "closed": false,
         "loaner": "Ahmed",
         "period": {
         "type": "month",
-        "value": 5
+        "value": 10
         },
         "perMonth": {
-        "value": 1000,
+        "value": 5000,
         "currency": "AZN"
         },
         "dueAmount": {
-        "value": 2000,
+        "value": 10000,
         "currency": "AZN"
         },
         "loanPeriod": {
@@ -236,7 +236,7 @@
         }
         ],
         "salary": {
-        "value": 4500,
+        "value": 6000,
         "currency": "AZN"
         },
         "surname": "Jabiyev",
