@@ -1,5 +1,6 @@
 [
     {
+    "id":1,
     "img": "https://randomuser.me/api/portraits/men/42.jpg",
     "name": "Jesus",
     "loans": [
@@ -84,6 +85,7 @@
     "hasLoanHistory": true
     },
     {
+     "id":2,
     "img": "https://randomuser.me/api/portraits/women/88.jpg",
     "name": "Kylie",
     "loans": [
@@ -168,6 +170,7 @@
     "hasLoanHistory": true
     },
     {
+    "id":3,   
     "img": "https://randomuser.me/api/portraits/men/22.jpg",
     "name": "Clarence",
     "loans": [
@@ -206,6 +209,7 @@
     "hasLoanHistory": true
     },
     {
+        "id":4,
         "img": "https://code.edu.az/media/Teachers/Kamran_C%C9%99biyev.jpg",
         "name": "Kamran",
         "loans": [
@@ -244,6 +248,7 @@
         "hasLoanHistory": true
         },
         {
+            "id":5,
             "img": "https://code.edu.az/media/Teachers/Qezenfer_Qezenferli.jpg",
             "name": "Gazanfar",
             "loans": [
