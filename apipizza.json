@@ -3,6 +3,7 @@
     "id": 1,
     "category": "Pizza",
     "name": "Vesuvius",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/1.png",
     "topping": [
       "Tomat",
       "Ost",
@@ -15,6 +16,7 @@
     "id": 2,
     "category": "Pizza",
     "name": "Hawaii",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/2.png",
     "topping": [
       "Tomat",
       "Ost",
@@ -28,6 +30,7 @@
     "id": 3,
     "category": "Pizza",
     "name": "Parma",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/3.png",
     "topping": [
       "Tomat",
       "Ost",
@@ -42,24 +45,35 @@
     "id": 4,
     "category": "Dryck",
     "name": "Coca-cola, 33cl",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/4.png",
     "price": 10
   },
   {
     "id": 5,
     "category": "Dryck",
     "name": "Loka citron, 33cl",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/5.png",
     "price": 10
   },
   {
     "id": 6,
     "category": "Tillbehör",
     "name": "Pizzasallad",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/6.png",
     "price": 0
   },
   {
     "id": 7,
     "category": "Tillbehör",
     "name": "Bröd och smör",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/7.png",
+    "price": 10
+  },
+   {
+    "id": 8,
+    "category": "Tillbehör",
+    "name": "Bröd och smör",
+    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/8.png",
     "price": 10
   }
 ]
