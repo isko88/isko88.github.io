@@ -1,79 +1,115 @@
 [
-  {
-    "id": 1,
-    "category": "Pizza",
-    "name": "Vesuvius",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/1.png",
-    "topping": [
-      "Tomat",
-      "Ost",
-      "Skinka"
-    ],
-    "price": 79,
-    "rank": 3
-  },
-  {
-    "id": 2,
-    "category": "Pizza",
-    "name": "Hawaii",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/2.png",
-    "topping": [
-      "Tomat",
-      "Ost",
-      "Skinka",
-      "Ananas"
-    ],
-    "price": 79,
-    "rank": 1
-  },
-  {
-    "id": 3,
-    "category": "Pizza",
-    "name": "Parma",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/3.png",
-    "topping": [
-      "Tomat",
-      "Ost",
-      "Parmaskinka",
-      "Oliver",
-      "Färska basilika"
-    ],
-    "price": 89,
-    "rank": 2
-  },
-  {
-    "id": 4,
-    "category": "Dryck",
-    "name": "Coca-cola, 33cl",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/4.png",
-    "price": 10
-  },
-  {
-    "id": 5,
-    "category": "Dryck",
-    "name": "Loka citron, 33cl",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/5.png",
-    "price": 10
-  },
-  {
-    "id": 6,
-    "category": "Tillbehör",
-    "name": "Pizzasallad",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/6.png",
-    "price": 0
-  },
-  {
-    "id": 7,
-    "category": "Tillbehör",
-    "name": "Bröd och smör",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/7.png",
-    "price": 10
-  },
-   {
-    "id": 8,
-    "category": "Tillbehör",
-    "name": "Bröd och smör",
-    "image":"https://github.com/isko88/isko88.github.io/blob/main/pizza/8.png",
-    "price": 10
-  }
-]
+    {
+      "id": 1,
+      "category": "Pizza",
+      "name": "Quattro formaggi",
+      "image":"https://isko88.github.io/pizza/1.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 79
+    },
+    {
+      "id": 2,
+      "category": "Pizza",
+      "name": "Carbonara",
+      "image":"https://isko88.github.io/pizza/2.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 79
+    },
+    {
+      "id": 3,
+      "category": "Pizza",
+      "name": "Philadelphia salmone",
+      "image":"https://isko88.github.io/pizza/3.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 89
+    },
+    {
+      "id": 4,
+      "category": "Pizza",
+      "name": "Veggie",
+      "image":"https://isko88.github.io/pizza/4.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 10
+    },
+    {
+      "id": 5,
+      "category": "Pizza",
+      "name": "Margherita",
+      "image":"https://isko88.github.io/pizza/5.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 10
+    },
+    {
+      "id": 6,
+      "category": "Pizza",
+      "name": "Pizzasallad",
+      "image":"https://isko88.github.io/pizza/6.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 0
+    },
+    {
+      "id": 7,
+      "category": "Pizza",
+      "name": "Hawaiian",
+      "image":"https://isko88.github.io/pizza/7.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 10
+    },
+     {
+      "id": 8,
+      "category": "Pizza",
+      "name": "Pepperoni",
+      "image":"https://isko88.github.io/pizza/8.png",
+      "topping": [
+        "Dough",
+        "Mozzarella",
+        "Cheddar",
+        "Blue",
+        "Parmesan"
+      ],
+      "price": 10
+    }
+  ]
+   
