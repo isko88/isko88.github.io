@@ -30,7 +30,7 @@
     {
       "id": 3,
       "category": "Pizza",
-      "name": "Philadelphia salmone",
+      "name": "Philadelphia",
       "image":"https://isko88.github.io/pizza/3.png",
       "topping": [
         "Dough",
