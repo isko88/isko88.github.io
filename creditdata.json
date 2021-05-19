@@ -334,6 +334,45 @@
             "hasLoanHistory": true
         },
         {
+            "id":7,
+            "img": "https://code.edu.az/media/Teachers/Cavidan_Talibov.jpg",
+            "name": "Javidan",
+            "loans": [
+            {
+            "amount": {
+            "value": 12000,
+            "currency": "AZN"
+            },
+            "closed": true,
+            "loaner": "Pasha",
+            "period": {
+            "type": "month",
+            "value": 24
+            },
+            "perMonth": {
+            "value": 500,
+            "currency": "AZN"
+            },
+            "dueAmount": {
+            "value": 0,
+            "currency": "AZN"
+            },
+            "loanPeriod": {
+            "end": "27.04.2022",
+            "start": "27.04.2020"
+            },
+            "interestRate": 17
+            }
+            ],
+            "salary": {
+            "value": 4200,
+            "currency": "AZN"
+            },
+            "surname": "Talibov",
+            "hasSalaryCard": true,
+            "hasLoanHistory": true
+        },
+        {
             "id":8,
             "img": "https://code.edu.az/media/Teachers/IMG_7635.jpg",
             "name": "Yolchu",
@@ -842,3 +881,4 @@
         }
         
     ]
+    
