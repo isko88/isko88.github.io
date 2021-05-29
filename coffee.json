@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Black",
+        "ingredients": [
+            "Coffee"
+        ],
+        "id": 1,
+        "price": 5.45,
+        "img": "https://coffee.alexflipnote.dev/TNsE8fqD1ME_coffee.jpg"
+    },
+    {
+        "name": "Latte",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "id": 2,
+        "price": 5.89,
+        "img": "https://coffee.alexflipnote.dev/D6t6UtYcPWw_coffee.jpg"
+    },
+    {
+        "name": "Cappuccino",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Foam"
+        ],
+        "id": 3,
+        "price": 4.50,
+        "img": "https://coffee.alexflipnote.dev/Jp3JVo4CmKQ_coffee.png"
+    },
+    {
+        "name": "Americano",
+        "ingredients": [
+            "Espresso",
+            "Hot Water"
+        ],
+        "id": 4,
+        "price": 8.50,
+        "img": "https://coffee.alexflipnote.dev/ezMG2V6WvVw_coffee.jpg"
+    },
+    {
+        "name": "Espresso",
+        "ingredients": [
+            "1oz Espresso"
+        ],
+        "id": 5,
+        "price": 4.90,
+        "img": "https://coffee.alexflipnote.dev/eiSNDLIyXsI_coffee.jpg"
+    },
+    {
+        "name": "Doppio",
+        "ingredients": [
+            "2oz Espresso"
+        ],
+        "id": 6,
+        "price": 6.50,
+        "img": "https://coffee.alexflipnote.dev/rrgsJKE-i28_coffee.jpg"
+    },
+    {
+        "name": "Cortado",
+        "ingredients": [
+            "1oz Espresso",
+            "1oz Steamed Milk"
+        ],
+        "id": 7,
+        "price": 9.90,
+        "img": "https://coffee.alexflipnote.dev/BgWB_jPkhco_coffee.jpg"
+    },
+    {
+        "name": "Red Eye",
+        "ingredients": [
+            "Coffee",
+            "Espresso"
+        ],
+        "id": 8,
+        "price": 7.20,
+        "img": "https://coffee.alexflipnote.dev/oGWyM6a48TA_coffee.jpg"
+    },
+    {
+        "name": "Galão",
+        "ingredients": [
+            "Espresso",
+            "Foamed milk"
+        ],
+        "id": 9,
+        "price": 5.45,
+        "img": "https://coffee.alexflipnote.dev/5AuOoY_Zec4_coffee.jpg"
+    },
+    {
+        "name": "Lungo",
+        "ingredients": [
+            "Long pulled espresso"
+        ],
+        "id": 10,
+        "price": 3.50,
+        "img": "https://coffee.alexflipnote.dev/oHnIwH_iF6c_coffee.jpg"
+    },
+    {
+        "name": "Macchiato",
+        "ingredients": [
+            "Espresso",
+            "Foam"
+        ],
+        "id": 11,
+        "price": 6.10,
+        "img": "https://coffee.alexflipnote.dev/gESU753M2-Y_coffee.jpg"
+    },
+    {
+        "name": "Mocha",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk",
+            "Chocolate"
+        ],
+        "id": 12,
+        "price": 2.90,
+        "img": "https://coffee.alexflipnote.dev/0RwD3CMckl4_coffee.png"
+    },
+    {
+        "name": "Ristretto",
+        "ingredients": [
+            "Short pulled espresso"
+        ],
+        "id": 13,
+        "price": 4.90,
+        "img": "https://coffee.alexflipnote.dev/BadnX4XHm44_coffee.jpg"
+    },
+    {
+        "name": "Flat White",
+        "ingredients": [
+            "Espresso",
+            "Steamed Milk"
+        ],
+        "id": 14,
+        "price": 3.50,
+        "img": "https://coffee.alexflipnote.dev/kEXhZ0I8Oss_coffee.jpg"
+    },
+    {
+        "name": "Affogato",
+        "ingredients": [
+            "Espresso",
+            "Ice cream"
+        ],
+        "id": 15,
+        "price": 1.90,
+        "img": "https://coffee.alexflipnote.dev/Wlb9slAvwOI_coffee.jpg"
+    },
+    {
+        "name": "Café au Lait",
+        "ingredients": [
+            "Coffee",
+            "Steamed Milk"
+        ],
+        "id": 16,
+        "price": 5.35,
+        "img": "https://coffee.alexflipnote.dev/Nvb_VITai0E_coffee.png"
+    },
+    {
+        "name": "Irish",
+        "ingredients": [
+            "Coffee",
+            "Whiskey",
+            "Sugar",
+            "Cream"
+        ],
+        "id": 17,
+        "price": 6.10,
+        "img": "https://coffee.alexflipnote.dev/rIi6dphtHDg_coffee.jpg"
+    },
+    {
+        "name": "Guayoyo",
+        "ingredients": [
+            "Coffee",
+            "Traditional",
+            "Hot Water"
+        ],
+        "id": 18,
+        "price": 4.80,
+        "img": "https://coffee.alexflipnote.dev/aaom261en-U_coffee.jpg"
+    },
+    {
+        "name": "Cortadito",
+        "ingredients": [
+            "Coffee",
+            "Traditional",
+            "Sugar",
+            "Milk"
+        ],
+        "id": 19,
+        "price": 5.20,
+        "img": "https://coffee.alexflipnote.dev/zwXq26eojEE_coffee.jpg"
+    },
+    {
+        "name": "Aguapanela Coffee",
+        "ingredients": [
+            "Coffee",
+            "Sweet",
+            "Panela",
+            "Traditional"
+        ],
+        "id": 20,
+        "price": 7.70,
+        "img": "https://coffee.alexflipnote.dev/1cOmbeI8mAY_coffee.jpg"
+    }
+]
