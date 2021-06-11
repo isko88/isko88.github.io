@@ -1,0 +1,39 @@
+[
+    {
+        "id": "151",
+        "username": "frank",
+        "firstname": "Ismayil",
+        "lastname": "Ismayilov",
+        "email": "ismayilj@code.edu.az",
+        "phoneNumber": "994504400754",
+        "cards":[
+            {
+                "id":"5",
+                "number":"1548699652521551",
+                "bankName":"Pasha",
+                "expiryDate":"2021-12-12",
+                "type":"Visa"
+            }
+           
+        ],
+        "subs": [
+            {
+                "id":"54548",
+                "item":"Antivirus",
+                "plan":"Monthly",
+                "price":"15$",
+                "card":{
+                    "id":"5",
+                    "number":"1548699652521551",
+                    "bankName":"Pasha",
+                    "expiryDate":"2021-12-12",
+                    "type":"Visa"
+                },
+                "subDate":"2020-06-12",
+                "website":"antivirus.com",
+                "isActive":true,
+                "deactivatedDate":"2020-12-12"
+            }
+        ]
+    }
+]
