@@ -1,0 +1,108 @@
+{
+  "cars": [{
+      "id": "1",
+      "name": "Porsche",
+      "weight":"1600 kg",
+      "horse_power":"580 HP",
+      "top_speed":"330 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"4WD",
+      "doors":"2",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "price": "$75000",
+      "colors": "blue",
+      "description": "2016"
+    },
+    {
+      "id": "2",
+      "name": "BMW",
+      "weight":"1595 kg",
+      "horse_power":"368 HP",
+      "top_speed":"250 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"4WD",
+      "image": "https://s.aolcdn.com/hss/storage/midas/9bce3eecfb27c69a58cc7f9ff4698bc2/205184936/P90251036_highRes_the-new-bmw-m4-cs-04.jpg",
+      "price": "$43000",
+      "colors": "red",
+      "description": "2015"
+    },
+    {
+      "id": "3",
+      "name": "Mercedes",
+      "weight":"1500 kg",
+      "horse_power":"330 HP",
+      "top_speed":"240 km/h",
+      "fuel_type":"Diesel",
+      "drive":"Rear",
+      "image": "http://images.car.bauercdn.com/pagefiles/3927/mercedes_c_class.jpg",
+      "price": "$35000",
+      "colors": "blue",
+      "description": "2017"
+    },
+    {
+      "id": "4",
+      "name": "Audi",
+      "weight":"1550 kg",
+      "horse_power":"444 HP",
+      "top_speed":"250 km/h",
+      "fuel_type":"Diesel",
+      "drive":"4WD",
+      "image": "https://i.pinimg.com/736x/56/e2/6b/56e26b610f2250664c225fbb618e57a3--future-car-my-future-husband.jpg",
+      "price": "$35000",
+      "colors": "orange",
+      "description": "2016"
+    },
+    {
+      "id": "5",
+      "name": "Subaru",
+      "weight":"1350 kg",
+      "horse_power":"200 HP",
+      "top_speed":"200 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"Front",
+      "image": "http://st.motortrend.com/uploads/sites/5/2014/03/2015-Subaru-WRX-STI-front-three-quarters.jpg",
+      "price": "$13000",
+      "colors": "blue",
+      "description": "2017"
+    },
+    {
+      "id": "6",
+      "name": "Cadillac",
+      "weight":"1660 kg",
+      "horse_power":"640 HP",
+      "top_speed":"322 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"4WD",
+      "image": "https://icdn5.digitaltrends.com/image/2016-cadillac-cts-front-full-1500x1000.jpg?ver=1",
+      "price": "$64000",
+      "colors": "red",
+      "description": "2015"
+    },
+    {
+      "id": "7",
+      "name": "Bentley",
+      "weight":"2252 kg",      
+      "horse_power":"650 HP",
+      "top_speed":"330 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"Front",
+      "image": "http://st.motortrend.com/uploads/sites/10/2016/04/2016-Bentley-Continental-GT-Speed-coupe-front-three-quarters-in-motion-03.jpg",
+      "price": "$56000",
+      "colors": "blue",
+      "description": "2017"
+    },
+    {
+      "id": "8",
+      "name": "Dodge",
+      "weight":"1580 kg",      
+      "horse_power":"240 HP",
+      "top_speed":"250 km/h",
+      "fuel_type":"Gasoline",
+      "drive":"Rear",
+      "image": "http://st.motortrend.com/uploads/sites/10/2016/09/2017-Dodge-Challenger-SRT-Hellcat-front-three-quarter-in-motion-01.jpg",
+      "price": "$50000",
+      "colors": "blue",
+      "description": "2016"
+    }
+  ]
+}
