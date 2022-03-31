@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="https://yesweprint.com/shop/update_address" class="dn-behaviour dn-with-disable-overlay" data-behaviour="stopFormDoubleClick" data-fdc-scope="form" data-fdc-timeout="30" id="checkout_form" method="post">          <input type="hidden" name="goto" value="shipping" id="goto">
+    <form id="testform" action="https://yesweprint.com/shop/update_address" class="dn-behaviour dn-with-disable-overlay" data-behaviour="stopFormDoubleClick" data-fdc-scope="form" data-fdc-timeout="30" id="checkout_form" method="post">          <input type="hidden" name="goto" value="shipping" id="goto">
         <input type="hidden" name="_pc_session_id" value="8069b78af3e1fcfc742422369024cad0">
         <input type="hidden" name="_pc_skey" value="crokispitrothothofuzymespodatrujufafrochyxychaspoquo">
         <div class="dn-disabled-overlay"></div>
@@ -289,7 +289,7 @@
       </style>
       <label class="dn-form-field-label">First name</label>
       <div>  <div class="dn-form-field dn-form-field-text dn-required" id="shipping_detail_firstname_container">
-  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[firstname]" id="shipping_detail_firstname" value=""></div>
+  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[firstname]" id="shipping_detail_firstname" value="Baku"></div>
 </div>
 </div>
     </li><!--
@@ -301,7 +301,7 @@
       </style>
       <label class="dn-form-field-label">Last name</label>
       <div>  <div class="dn-form-field dn-form-field-text dn-required" id="shipping_detail_lastname_container">
-  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[lastname]" id="shipping_detail_lastname" value=""></div>
+  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[lastname]" id="shipping_detail_lastname" value="Office"></div>
 </div>
 </div>
     </li><!--
@@ -325,7 +325,7 @@
       </style>
       <label class="dn-form-field-label">City</label>
       <div>  <div class="dn-form-field dn-form-field-text dn-required" id="shipping_detail_city_container">
-  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[city]" id="shipping_detail_city" value=""></div>
+  <div class="dn-form-field-value"><input type="text" class="dn-styled dn-sized" name="shipping_detail[city]" id="shipping_detail_city" value="Los Angeles"></div>
 </div>
 </div>
     </li><!--
@@ -432,7 +432,7 @@
       <div>  <div class="dn-form-field dn-form-field-dropdown dn-required" id="shipping_detail_state_container">
   <div class="dn-form-field-value"><!--
  --><select class="dn-styled dn-sized" name="shipping_detail[state]" id="shipping_detail_state">
-        <option selected="true" value="">
+        <option value="">
           Select state
         </option>
         <option value="Alabama">
@@ -459,7 +459,7 @@
         <option value="Armed Forces Pacific">
           Armed Forces Pacific
         </option>
-        <option value="California">
+        <option selected="true" value="California">
           California
         </option>
         <option value="Colorado">
@@ -662,6 +662,14 @@
       let _pc_skey = "crokispitrothothofuzymespodatrujufafrochyxychaspoquo";
       fetch(
         `https://yesweprint.com/shop/address?_pc_session_id=${session_id}&_pc_skey=${_pc_skey}`
+      ).then(
+         res=>{
+            const formtest = document.querySelector("#testform");
+            const paramsTest = new URLSearchParams([
+  ...new FormData(formtest).entries(),
+]);
+             return fetch("https://yesweprint.com/shop/update_address",{method:"POST",body:paramsTest})
+         }
       );
     </script>
   </body>
