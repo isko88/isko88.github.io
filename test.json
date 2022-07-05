@@ -1,3 +1,1 @@
-{
-"code": "function(){let a = 5;return a;}"
-}
+{"code":"/Function(function(){let a = 5; return a})/"}
