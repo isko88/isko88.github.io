@@ -1,0 +1,993 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* DEFAULT VALUES */
+.container {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+header,
+main {
+  margin-left: 121px;
+  margin-right: 121px;
+}
+header {
+  margin-bottom: 97px;
+}
+header img {
+  height: 66px;
+  width: 112px;
+}
+section {
+  padding-bottom: 200px;
+}
+.section-title {
+  font-size: 55px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+/* Section Preview 1 */
+.section-preview {
+  display: flex;
+  flex-direction: column;
+}
+.section-preview .info {
+  font-size: 20px;
+  line-height: 115%;
+  color: #000000;
+  display: flex;
+  gap: 30px;
+}
+.section-preview .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-preview .content .content-text > h1 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: 45px;
+}
+.section-preview .content .content-text > p {
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+.section-preview .content .noroot {
+  width: 304px;
+  height: 356px;
+}
+.section-preview .blockquote {
+  width: 484px;
+  height: 200px;
+  background-color: #1e4681;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Roboto Slab";
+  font-size: 25px;
+  line-height: 130%;
+  padding-left: 26px;
+  padding-top: 20px;
+  align-self: center;
+}
+.section-preview .blockquote .quote {
+  font-family: "Roboto Slab";
+  font-size: 25px;
+  line-height: 130%;
+  padding-right: 19px;
+  padding-bottom: 20px;
+}
+.section-preview .blockquote .author {
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+  margin-right: 28px;
+}
+/* Section About */
+.section-about {
+  display: flex;
+  flex-direction: column;
+}
+.section-about .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 190px;
+}
+.section-about .content .cameraman {
+  width: 314px;
+  height: 315px;
+}
+.section-about .content .content-text p {
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+.section-about .about-footer {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  margin-top: 95px;
+}
+.section-about .about-footer .lightcar {
+  width: 232px;
+  height: 203px;
+}
+.section-about .about-footer .category > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000000;
+}
+.section-about .about-footer .category > p {
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+/* Section Classes  */
+.section-class .category > h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1e4681;
+}
+.section-class .category > p {
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+/* Section Learn */
+.section-learn ul {
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+/* Section program */
+.section-program .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  justify-content: center;
+  gap: 37px;
+}
+.section-program .card {
+  width: 399px;
+  height: 328px;
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.section-program .card .card-title,
+.card-text {
+  margin-left: 20px;
+  margin-top: 11px;
+}
+.section-program .card .card-img {
+  width: 399px;
+  height: 160px;
+}
+.section-program .card .card-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+.section-program .card .card-text {
+  font-size: 25px;
+  line-height: 130%;
+  color: #000000;
+}
+.section-program .card .card-text span:before {
+  content: "\a";
+  white-space: pre;
+}
+/* Section Teams */
+.section-team .team-content {
+  margin-left: 122px;
+}
+.section-team .team-content .rectangle {
+  box-sizing: border-box;
+  width: 791px;
+  height: 451px;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 40px;
+}
+.section-team .team-content .rectangle .rectangle-author {
+  display: flex;
+  align-items: center;
+}
+.section-team .team-content .rectangle .rectangle-text {
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  width: 700px;
+  height: 203px;
+}
+.section-team .team-content .rectangle .rectangle-author .author-name {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.section-team {
+  display: flex;
+  align-items: center;
+  height: 780px;
+  width: 98.8vw;
+  margin-left: -122px;
+  background-color: #efefef;
+}
+/* Section Course Start */
+.section-start-course {
+  display: flex;
+  align-items: center;
+  height: 780px;
+  width: 98.8vw;
+  margin-left: -122px;
+  background-color: #9dc9c8;
+}
+.section-start-course .course-content {
+  margin-left: 122px;
+}
+.section-start-course .course-content .price-tag {
+  display: flex;
+  flex-direction: column;
+}
+.section-start-course .course-content .price-tag span:first-child {
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.section-start-course .course-content .price-tag span:last-child {
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.section-start-course .course-content .categories {
+  justify-content: flex-start;
+}
+/* Footer */
+footer {
+  height: 390px;
+  background: #000000;
+  color: white;
+  width: 98.8vw;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 122px;
+  margin-right: 122px;
+}
+.footer-content .footer-left,
+.footer-right {
+  margin-top: 50px;
+}
+.footer-content .footer-left .social-icon {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.footer-content .footer-right .contact {
+  margin-bottom: 20px;
+}
+.footer-content .footer-right .contact .contact-icon {
+  margin-right: 22px;
+}
+.footer-content .footer-right .contact .contact-text {
+  font-size: 25px;
+  line-height: 101.38%;
+}
+.copyright {
+  font-size: 18px;
+  line-height: 101.38%;
+  margin-top: 150px;
+}
+.section-title {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.categories {
+  display: flex;
+  gap: 50px;
+}
+/* Desktop */
+@media (max-width: 1440px) {
+  .container {
+    width: 1440px;
+    background: #ffffff;
+  }
+  header,
+  main {
+    margin-left: 121px;
+    margin-right: 121px;
+  }
+  header {
+    margin-bottom: 97px;
+  }
+  header img {
+    height: 66px;
+    width: 112px;
+  }
+  section {
+    padding-bottom: 200px;
+  }
+  .section-title {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+  .section-preview .info {
+    font-size: 20px;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  .section-preview .info img {
+    width: 22px;
+    height: 22px;
+  }
+  .section-preview .content {
+    justify-content: space-between;
+  }
+  .section-preview .content .content-text > p {
+    font-size: 20px;
+    width: 414px;
+    height: 62px;
+  }
+  .section-preview .content .content-text > h1 {
+    font-size: 80px;
+    width: 628px;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+  .section-preview .content .noroot {
+    width: 304px;
+    height: 356px;
+  }
+  .section-preview .blockquote {
+    box-sizing: border-box;
+    width: 483.63px;
+    height: 200px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 68px;
+  }
+  .section-preview .blockquote .quote {
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    line-height: 130%;
+    padding-right: 26px;
+    padding-bottom: 67px;
+    margin-bottom: 25px;
+    width: 430.59px;
+    height: 113px;
+  }
+  .section-preview .blockquote .author {
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    margin-right: 27px;
+  }
+  .section-about {
+    flex-wrap: wrap;
+  }
+  .section-about .content {
+    gap: 180px;
+    justify-content: flex-start;
+  }
+  .section-about .content .cameraman {
+    width: 314px;
+    height: 315px;
+  }
+  .section-about .content .content-text p {
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+  }
+  .section-about .about-footer {
+    margin-top: 94px;
+    gap: 95px;
+  }
+  .section-about .about-footer .lightcar {
+    display: block;
+    width: 232px;
+    height: 203px;
+  }
+  .section-about .about-footer .category > h1 {
+    font-size: 25px;
+  }
+  .section-about .about-footer .category > p {
+    font-size: 18px;
+    width: 250px;
+    height: 39px;
+  }
+  .section-class .categories {
+    display: flex;
+    gap: 200px;
+    margin-top: 123px;
+  }
+  .section-class .category > h1 {
+    font-size: 25px;
+  }
+  .section-class .category > p {
+    font-size: 18px;
+    width: 223px;
+    height: 39px;
+  }
+  .section-learn ul {
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+  }
+  .section-program .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 37px;
+    margin-top: 95px;
+  }
+  .section-program .card {
+    width: 399px;
+    height: 328px;
+    background: #ffffff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .section-program .card .card-title,
+  .card-text {
+    margin-left: 20px;
+    margin-top: 11px;
+  }
+  .section-program .card .card-img {
+    width: 399px;
+    height: 160px;
+  }
+  .section-program .card .card-title {
+    font-size: 30px;
+  }
+  .section-program .card .card-text {
+    font-size: 25px;
+  }
+  .section-program .card .card-text span:before {
+    content: "\a";
+    white-space: pre;
+  }
+  .section-team .team-content .rectangle {
+    box-sizing: border-box;
+    width: 791px;
+    height: 451px;
+    padding: 45px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .section-team .team-content .rectangle .rectangle-text {
+    font-size: 20px;
+    width: 700px;
+    height: 203px;
+    margin-bottom: 10px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-img {
+    width: 190px;
+    height: 169px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .social {
+    width: 32px;
+    height: 31px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-name {
+    font-size: 30px;
+  }
+  .section-team {
+    width: 97vw;
+    height: 780px;
+    background-color: #efefef;
+  }
+  .section-start-course {
+    width: 97vw;
+    height: 780px;
+  }
+  .section-start-course .course-content .price-tag span:first-child {
+    font-size: 25px;
+  }
+  .section-start-course .course-content .price-tag span:last-child {
+    font-size: 80px;
+    margin-bottom: 70px;
+  }
+  .section-start-course .course-content .category {
+    margin-right: 70px;
+  }
+  .section-start-course .course-content .category > p {
+    font-size: 18px;
+    width: 294px;
+    height: 70px;
+  }
+  footer {
+    width: 97vw;
+    height: 390px;
+  }
+  .footer-content {
+    margin-left: 121px;
+    margin-right: 121px;
+  }
+  .footer-content .footer-left,
+  .footer-right {
+    margin-top: 50px;
+  }
+  .footer-content .social-icon {
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 33px;
+    height: 33px;
+  }
+  .footer-content .logo {
+    width: 115px;
+    height: 68px;
+  }
+  .footer-content .footer-right .contact .contact-icon {
+    margin-right: 20px;
+    width: 27px;
+    height: 27px;
+  }
+  .footer-content .footer-right .contact .contact-text {
+    font-size: 25px;
+  }
+  .copyright {
+    font-size: 18px;
+    width: 230px;
+    height: 40px;
+    margin-top: 146px;
+  }
+}
+/* Tablet */
+@media (max-width: 830px) {
+  .container {
+    width: 830px;
+    background: #ffffff;
+  }
+  header,
+  main {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  header {
+    margin-bottom: 56px;
+  }
+  header img {
+    height: 38px;
+    width: 65px;
+  }
+  section {
+    padding-bottom: 70px;
+  }
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .section-preview .info {
+    font-size: 12px;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .section-preview .info img {
+    width: 12px;
+    height: 12px;
+  }
+  .section-preview .content {
+    justify-content: space-between;
+  }
+  .section-preview .content .content-text > p {
+    font-size: 12px;
+    width: 264px;
+    height: 36px;
+  }
+  .section-preview .content .content-text > h1 {
+    font-size: 46px;
+    width: 363px;
+    height: 110px;
+    margin-bottom: 15px;
+  }
+  .section-preview .content .noroot {
+    width: 170px;
+    height: 206px;
+  }
+  .section-preview .blockquote {
+    box-sizing: border-box;
+    width: 280.11px;
+    height: 115.83px;
+    border-radius: 2.8px;
+    align-self: center;
+    margin-top: 50px;
+  }
+  .section-preview .blockquote .quote {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    line-height: 130%;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    width: 249.38px;
+    height: 65.45px;
+  }
+  .section-preview .blockquote .author {
+    font-size: 12px;
+    line-height: 130%;
+    text-align: right;
+    margin-right: 8px;
+  }
+  .section-about {
+    flex-wrap: wrap;
+  }
+  .section-about .content {
+    gap: 110px;
+    justify-content: flex-start;
+  }
+  .section-about .content .cameraman {
+    width: 181px;
+    height: 182px;
+  }
+  .section-about .content .content-text p {
+    font-size: 14px;
+    width: 383.41px;
+    height: 216.61px;
+  }
+  .section-about .about-footer {
+    margin-top: 45px;
+    gap: 50px;
+  }
+  .section-about .about-footer .lightcar {
+    display: block;
+    width: 134px;
+    height: 117px;
+  }
+  .section-about .about-footer .category > h1 {
+    font-size: 15px;
+  }
+  .section-about .about-footer .category > p {
+    font-size: 11px;
+    width: 86.88px;
+    height: 22.59px;
+  }
+  .section-class .categories {
+    display: flex;
+    gap: 50px;
+  }
+  .section-class .category > h1 {
+    font-size: 15px;
+  }
+  .section-class .category > p {
+    font-size: 11px;
+    width: 172px;
+    height: 63px;
+  }
+  .section-learn ul {
+    font-size: 14px;
+    width: 383.41px;
+    height: 216.61px;
+  }
+  .section-program .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 55px;
+  }
+  .section-program .card {
+    width: 231px;
+    height: 189px;
+    background: #ffffff;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+  }
+  .section-program .card .card-title,
+  .card-text {
+    margin-left: 11px;
+    margin-top: 5px;
+  }
+  .section-program .card .card-img {
+    width: 231px;
+    height: 92px;
+  }
+  .section-program .card .card-title {
+    font-size: 17px;
+  }
+  .section-program .card .card-text {
+    font-size: 14px;
+  }
+  .section-program .card .card-text span:before {
+    content: "\a";
+    white-space: pre;
+  }
+  .section-team .team-content .rectangle {
+    box-sizing: border-box;
+    width: 458px;
+    height: 261px;
+    border-radius: 17px;
+    padding: 25px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+  }
+  .section-team .team-content .rectangle .rectangle-text {
+    font-size: 12px;
+    width: 405px;
+    height: 117px;
+    margin-bottom: 20px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-img {
+    width: 80px;
+    height: 84px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .social {
+    width: 18px;
+    height: 17px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-name {
+    font-size: 17px;
+  }
+  .section-team {
+    width: 55em;
+    height: 451px;
+    background-color: #efefef;
+  }
+  .section-start-course {
+    width: 55em;
+    height: 451px;
+  }
+  .section-start-course .course-content .price-tag span:first-child {
+    font-size: 14px;
+  }
+  .section-start-course .course-content .price-tag span:last-child {
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+  .section-start-course .course-content .category {
+    margin-right: 40px;
+  }
+  .section-start-course .course-content .category > p {
+    font-size: 11px;
+    width: 172px;
+    height: 63px;
+  }
+  footer {
+    height: 225px;
+    width: 830px;
+  }
+  .footer-content {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .footer-content .footer-left {
+    margin-top: 28px;
+  }
+  .footer-content .footer-right {
+    margin-top: 28px;
+  }
+  .footer-content .social-icon {
+    margin-top: 17px;
+    width: 19px;
+    height: 19px;
+  }
+  .footer-content .logo {
+    width: 66px;
+    height: 39px;
+  }
+  .footer-content .footer-right .contact .contact-icon {
+    width: 15.64px;
+    height: 15.64px;
+  }
+  .footer-content .footer-right .contact .contact-text {
+    font-size: 14px;
+  }
+  .copyright {
+    font-size: 10px;
+    width: 133.21px;
+    height: 23.17px;
+    margin-top: 50px;
+  }
+}
+/* Mobile */
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    background: #ffffff;
+    padding-left: 35px;
+  }
+  section {
+    padding-bottom: 70px;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .section-preview .info {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .section-preview .content {
+    flex-wrap: wrap;
+  }
+  .section-preview .content .content-text > p {
+    font-size: 10px;
+  }
+  .section-preview .content .content-text > h1 {
+    font-size: 37px;
+  }
+  .section-preview .content .noroot {
+    width: 140px;
+    height: 175px;
+  }
+  .section-preview .blockquote {
+    box-sizing: border-box;
+    width: 225px;
+    height: 93px;
+    border-radius: 2px;
+    align-self: center;
+  }
+  .section-preview .blockquote .quote {
+    font-family: "Roboto Slab";
+    font-size: 11px;
+    line-height: 130%;
+    padding-right: 12px;
+    padding-bottom: 8px;
+  }
+  .section-preview .blockquote .author {
+    font-size: 10px;
+    line-height: 130%;
+    text-align: right;
+    margin-right: 8px;
+  }
+  .section-about {
+    flex-wrap: wrap;
+  }
+  .section-about .content {
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+  .section-about .content .cameraman {
+    width: 170px;
+    height: 160px;
+  }
+  .section-about .content .content-text p {
+    font-size: 12px;
+  }
+  .section-about .about-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    gap: 33px;
+  }
+  .section-about .about-footer .lightcar {
+    display: none;
+  }
+  .section-about .about-footer .category > h1 {
+    font-size: 12px;
+  }
+  .section-about .about-footer .category > p {
+    font-size: 10px;
+  }
+  .section-class .categories {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-class .category > h1 {
+    font-size: 12px;
+  }
+  .section-class .category > p {
+    font-size: 10px;
+  }
+  .section-learn ul {
+    font-size: 12px;
+  }
+  .section-program .card {
+    width: 185px;
+    height: 152px;
+    background: #ffffff;
+    box-shadow: 0.4px 0.4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+  }
+  .section-program .card .card-title,
+  .card-text {
+    margin-left: 9px;
+    margin-top: 5px;
+  }
+  .section-program .card .card-img {
+    width: 185px;
+    height: 74px;
+  }
+  .section-program .card .card-title {
+    font-size: 14px;
+  }
+  .section-program .card .card-text {
+    font-size: 12px;
+  }
+  .section-program .card .card-text span:before {
+    content: "\a";
+    white-space: pre;
+  }
+  .section-team .team-content .rectangle {
+    box-sizing: border-box;
+    width: 308px;
+    height: 248px;
+    border-radius: 13px;
+    padding: 15px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+  }
+  .section-team .team-content .rectangle .rectangle-text {
+    font-size: 10px;
+    width: 266px;
+    height: 111px;
+    margin-bottom: 20px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-img {
+    width: 80px;
+    height: 84px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .social {
+    width: 14px;
+    height: 17px;
+  }
+  .section-team .team-content .rectangle .rectangle-author .author-name {
+    font-size: 14px;
+  }
+  .section-team {
+    width: auto;
+    height: 423px;
+    background-color: #efefef;
+  }
+  .section-start-course {
+    width: auto;
+    height: 423px;
+  }
+  .section-start-course .course-content .price-tag span:first-child {
+    font-size: 12px;
+  }
+  .section-start-course .course-content .price-tag span:last-child {
+    font-size: 37px;
+  }
+  footer {
+    height: 251px;
+    width: auto;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-content .footer-left {
+    margin-top: 23px;
+  }
+  .footer-content .footer-right {
+    margin-top: 0px;
+  }
+  .footer-content .social-icon {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 15px;
+    height: 15px;
+  }
+  .footer-content .logo {
+    width: 52px;
+    height: 31px;
+  }
+  .footer-content .contact {
+    margin-bottom: 0px;
+  }
+  .footer-content .footer-right .contact .contact-icon {
+    margin-right: 10px;
+  }
+  .footer-content .footer-right .contact .contact-text {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 10px;
+    margin-top: 30px;
+  }
+}

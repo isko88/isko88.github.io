@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1280px) {
+  .samira {
+    margin-top: -46px;
+  }
+
+  .about-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1002px;
+    height: 219px;
+    margin-left: 121px;
+    box-sizing: border-box;
+    margin-bottom: 162px;
+  }
+
+  .information {
+    width: 150px;
+    height: 79px;
+  }
+
+  .about-course h3 {
+    width: 150px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .about-course p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    width: 150px;
+    height: 39px;
+  }
+
+  .about-img {
+    width: 232px;
+    height: 219px;
+    margin-right: 38.5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .about-image {
+    width: 232px;
+    height: 203px;
+  }
+
+  .ellipse3 {
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 34px;
+    z-index: -1;
+  }
+
+  .format-lessons {
+    margin-left: 122px;
+    margin-bottom: 177px;
+  }
+
+  .format-lessons h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    width: 667px;
+    height: 93px;
+    margin-left: -1px;
+    margin-bottom: 90px;
+  }
+
+  .format-lessons p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    width: 100%;
+    margin-top: 9px;
+  }
+
+  .format {
+    max-width: 974px;
+    height: 149px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .format-lessons h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    font-family: "Roboto";
+  }
+
+  .vebnar {
+    width: 223px;
+    height: 149px;
+    margin-right: 8px;
+  }
+
+  .ever {
+    width: 271px;
+    height: 149px;
+  }
+
+  .convers {
+    width: 245px;
+    height: 79px;
+  }
+
+  .wwknow {
+    height: 494px;
+    width: 679px;
+    margin-left: 121px;
+  }
+
+  .wwknow h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    width: 667px;
+    height: 93px;
+    margin-bottom: 21px;
+  }
+
+  .list {
+    width: 662px;
+    height: 385px;
+    margin-left: 17px;
+  }
+
+  .list ul {
+    width: 662px;
+    height: 385px;
+  }
+
+  .list ul li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    width: 662px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+  .about-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 53px;
+    margin-left: 70.08px;
+    align-items: center;
+    margin-bottom: 98px;
+  }
+  .about-course div {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .about-course > .information {
+    font-family: "Roboto";
+    font-size: 11px;
+    line-height: 14.3px;
+    font-weight: 400;
+    width: 86.88px;
+  }
+  .about-course > .information > h3 {
+    font-family: "Roboto";
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 19.5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    width: 86.88px;
+    height: 22.59px;
+  }
+  .about-course > .information:nth-child(2) {
+    margin-top: 5px;
+    margin-right: 55px;
+  }
+  .about-course > .information:nth-child(3) {
+    width: 108px;
+    margin-right: 33px;
+  }
+  .samira > .about-course > .about-img {
+    margin-top: -36px;
+    margin-right: 61px;
+  }
+  .samira > .about-course > .about-img > .about-image {
+    width: 134.37px;
+    height: 117.57px;
+    margin-right: 76.45px;
+  }
+  body > div.samira > div.about-course > div.information {
+    margin-top: 40px;
+  }
+  .ellipse3 {
+    width: 109.46px;
+    height: 18.53px;
+    z-index: -1 !important;
+    margin-top: 0;
+    margin-left: 19px;
+  }
+
+  .format-lessons {
+    padding-top: 39px;
+    margin-left: 46px;
+  }
+  .format-lessons > h2 {
+    font-size: 32px !important;
+    margin-top: 0px;
+    margin-bottom: 21px;
+    font-size: 66px;
+    margin-bottom: 70px;
+    margin-left: 24px;
+  }
+
+  .format-lessons > .format > div {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14.3px;
+    width: 135px;
+  }
+  body > div.samira > div.format-lessons > div > div > p {
+    font-family: "Roboto";
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 14.3px !important;
+  }
+
+  .format-lessons > .format > div > h3 {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 19.5px;
+    margin-bottom: 4px;
+  }
+
+  .format {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  body > div.samira > div.format-lessons > div > div:nth-child(1) {
+    margin-right: 65px;
+  }
+  body > div.samira > div.format-lessons > div > div:nth-child(2) {
+    width: 172px;
+    margin-right: 50px;
+  }
+  body > div.samira > div.format-lessons > div > div:nth-child(3) {
+    width: 141.9px;
+  }
+  .format div {
+    width: 270px;
+  }
+
+  .format-lessons p {
+    font-size: 18px !important;
+  }
+
+  /* .format-lessons {
+      position: relative;
+    } */
+  .wwknow {
+    margin-top: 122px;
+    margin-left: 70px;
+  }
+  .wwknow > h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-bottom: 34px;
+  }
+  ul {
+    list-style: disc;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 662px;
+    height: 374px;
+    margin-left: 10px;
+    width: 383px;
+  }
+  ul > li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: -5px;
+  }
+  .samira * {
+    position: static !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+  }
+  .ellipse3 {
+    width: 109.46px;
+    height: 18.53px;
+    position: relative !important;
+    z-index: -1 !important;
+    top: -13px !important;
+    margin-left: 19px;
+  }
+
+  body > div.samira > div.format-lessons > div > div.vebnar > p {
+    width: 135x !important;
+  }
+  body > div.samira > div.format-lessons > div > div.ever > p {
+    width: 176x !important;
+  }
+  body > div.samira > div.format-lessons > div > div.convers > p {
+    width: 176x !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .samira {
+    width: 376px;
+  }
+  .about-course {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* row-gap: 32px; */
+    /* justify-content: start; */
+    margin-top: 77px;
+    margin-left: 35px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    height: 142px;
+  }
+
+  .samira .about-img {
+    /* position: relative; */
+    display: none;
+    bottom: 10px;
+    right: 85px;
+    width: 232px;
+    height: 203px;
+  }
+  body > div.samira > div.about-course > div:nth-child(3) {
+    margin-right: 100px;
+  }
+  body > div.samira > div.about-course > div:nth-child(4) {
+    width: 94px;
+  }
+  body
+    > div.samira
+    > div.about-course
+    > div:nth-child(4)
+    body
+    > div.samira
+    > div.format-lessons
+    > div
+    > div:nth-child(1)
+    > br {
+    display: none;
+  }
+  .about-course > .information {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    width: 85px;
+  }
+  .about-course > .information > h3 {
+    font-family: "Roboto";
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 15.6px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    width: 86px;
+    height: 18.17px;
+  }
+  body > div.samira > div.about-course > div.about-img {
+    margin-right: 10px;
+  }
+  body > div.samira > div.about-course > div:nth-child(2) {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 34px;
+  }
+  .about-course > .information:nth-child(4) {
+    width: 108px;
+    margin-right: 30px;
+  }
+  .samira > .about-course > .about-img > img {
+    width: 134.37px;
+    height: 117.57px;
+    margin-right: 76.45px;
+  }
+  .about-course div {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .format-lessons {
+    margin-left: 13px;
+    margin-top: 0px;
+  }
+  .format-lessons > h2 {
+    font-size: 26px !important;
+    font-size: 66px;
+    margin-bottom: 30px;
+    margin-left: 24px;
+    /* height: 10px; */
+  }
+
+  .format-lessons > .format > div > h3 {
+    color: #1e4681;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 15.6px;
+    margin-bottom: 4px;
+  }
+
+  .format {
+    margin-left: 22px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* row-gap: 32px; */
+    height: 250px;
+  }
+
+  body > div.samira > div.format-lessons > div > div:nth-child(1) {
+    margin-bottom: 32px;
+  }
+  body > div.samira > div.format-lessons > div > div:nth-child(2) {
+    margin-bottom: 31px;
+  }
+
+  /* .format-lessons {
+      position: relative;
+    } */
+  .wwknow {
+    margin-top: 39px;
+    margin-left: 37px;
+  }
+  .wwknow > h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+    margin-bottom: 28px;
+  }
+  ul {
+    list-style: disc;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 662px;
+    height: 200px;
+    margin-left: 7px;
+    width: 302px;
+  }
+  ul > li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 0px;
+  }
+  .samira * {
+    position: static !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+  }
+  body > div.samira > div.format-lessons > div > div > p {
+    font-family: "Roboto";
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 13px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.vebnar > p > br {
+    display: none;
+  }
+  body > div.samira > div.format-lessons > div > div.vebnar {
+    width: 220px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.ever {
+    width: 171px !important;
+  }
+  body > div.samira > div.format-lessons > div > div.convers {
+    width: 176px !important;
+  }
+}
